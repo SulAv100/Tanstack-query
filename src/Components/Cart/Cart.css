@@ -1,0 +1,54 @@
+.item-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    gap: 50px;
+}
+.single-container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.button-set{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 5px;
+}
+.single-container span{
+    font-size: 18px;
+    font-family: cursive;
+}
+.single-container input{
+    width: 50px;
+    height: 40px;
+    background-color: rgb(193, 189, 189);
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+.button-set button{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+}
+.button-set button:first-child{
+    background-color: red;
+    color: white;
+}
+.button-set button:last-child{
+    background-color: rgb(86, 226, 86);
+    color: white;
+}
