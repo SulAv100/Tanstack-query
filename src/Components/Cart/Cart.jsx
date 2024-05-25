@@ -1,10 +1,10 @@
-import React, { useDebugValue } from "react";
+import React from "react";
 import "./Cart.css";
 import { useDispatch, useSelector } from "react-redux";
 import { increment, decrement } from "../Slice/Slice";
 
 function Cart() {
-  const items = useSelector((state) => state.cart.items);
+  const items = useSelector(state => state.cart.cartItems);
 
   const dispatch = useDispatch();
 
